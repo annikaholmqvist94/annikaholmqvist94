@@ -33,7 +33,7 @@ Currently diving deep into **backend development**, system architecture, and cle
 - [**CLI App**](https://github.com/annikaholmqvist94/CLI-app)  
   A command-line Java application focused on efficiency and clean architecture.  
   Built with **Java**, using object-oriented design and modular structure.  
-  *(Simple, functional, and fully written from scratch — because sometimes less is more ☕)*
+  *(Simple, functional - sometimes less is more ☕)*
 
 ---
 
