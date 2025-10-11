@@ -1,16 +1,59 @@
-## Hi there 👋
 
-<!--
-**annikaholmqvist94/annikaholmqvist94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# 👋 Hi, I'm Annika Holmqvist
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+💻 **Java Developer in training** with a passion for building efficient, scalable, and human-friendly software.  
+Currently diving deep into **backend development**, system architecture, and clean code principles — powered by curiosity (and coffee ☕).
+
+---
+
+## 🧠 About Me
+- 🎓 Studying **Java development**  
+- ⚙️ Interested in **backend systems**, **app development**, and everything that makes tech smarter and faster  
+- 🧩 Always learning — from design patterns to deployment strategies  
+- 🌍 Based in Sweden, collaborating remotely and aim to build for global users  
+- 🧘‍♀️ When not coding, I recharge through movement, problem-solving, and strong espresso shots  
+
+---
+
+## 🛠️ Skills & Tech Stack
+
+| Area | Technologies & Tools |
+|------|------------------------|
+| Language | Java |
+| Frameworks / Libraries | Spring Boot, Hibernate, REST APIs |
+| Databases | SQL (PostgreSQL, MySQL) |
+| Tools & DevOps | Git, Docker, CI/CD pipelines |
+| IDE / Environment | IntelliJ IDEA, Linux |
+| Practices | Clean Code, Design Patterns, TDD, SOLID principles |
+
+---
+
+## 📌 Featured Projects  
+
+- [**CLI App**](https://github.com/annikaholmqvist94/CLI-app)  
+  A command-line Java application focused on efficiency and clean architecture.  
+  Built with **Java**, using object-oriented design and modular structure.  
+  *(Simple, functional, and fully written from scratch — because sometimes less is more ☕)*
+
+---
+
+## 📈 GitHub Stats & Badges
+
+![Annikas GitHub stats](https://github-readme-stats.vercel.app/api?username=annikaholmqvist94&show_icons=true&theme=dark)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=annikaholmqvist94&layout=compact&theme=dark)
+
+---
+
+## 🔗 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Annika%20Holmqvist-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/annika-holmqvist-130911209/)
+[![Instagram](https://img.shields.io/badge/Instagram-Reawake%20Estate%20Ltd-pink?style=for-the-badge&logo=instagram)](https://www.instagram.com/reawake_estate_ltd/)
+
+---
+
+> “Code is like humor. When you have to explain it, it’s bad.” – Cory House  
+>  
+> Thanks for stopping by — feel free to explore, connect, or share ideas! 🚀
+
+
