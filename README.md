@@ -12,7 +12,7 @@ Currently diving deep into **backend development**, system architecture, and cle
 - ⚙️ Interested in **backend systems**, **app development**, and everything that makes tech smarter and faster  
 - 🧩 Always learning — from design patterns to deployment strategies  
 - 🌍 Based in Sweden, collaborating remotely and aim to build for global users  
-- 🧘‍♀️ When not coding, I recharge through movement, problem-solving, and strong espresso shots  
+- 🧘‍♀️ When not coding, I recharge through movement, property development, and strong espresso shots  
 
 ---
 
