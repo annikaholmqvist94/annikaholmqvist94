@@ -21,11 +21,10 @@ Currently diving deep into **backend development**, system architecture, and cle
 | Area | Technologies & Tools |
 |------|------------------------|
 | Language | Java |
-| Frameworks / Libraries | Spring Boot, Hibernate, REST APIs |
-| Databases | SQL (PostgreSQL, MySQL) |
-| Tools & DevOps | Git, Docker, CI/CD pipelines |
+| Databases | SQL |
+| Tools & DevOps | Git |
 | IDE / Environment | IntelliJ IDEA, Linux |
-| Practices | Clean Code, Design Patterns, TDD, SOLID principles |
+| Practices | Clean Code, Design Patterns |
 
 ---
 
