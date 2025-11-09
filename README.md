@@ -35,6 +35,10 @@ Currently diving deep into **backend development**, system architecture, and cle
   Built with **Java**, using object-oriented design and modular structure.  
   *(Simple, functional - sometimes less is more ☕)*
 
+- [**Warehouse**](https://github.com/ithsjava25/java-core-annikaholmqvist94)  
+  A Warehouse Java application focused on Test Driven Development.  
+  Built with **Java**, using object-oriented design.  
+
 ---
 
 ## 📈 GitHub Stats & Badges
