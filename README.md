@@ -37,7 +37,13 @@ Currently diving deep into **backend development**, system architecture, and cle
 
 - [**Warehouse**](https://github.com/ithsjava25/java-core-annikaholmqvist94)  
   A Warehouse Java application focused on Test Driven Development.  
-  Built with **Java**, using object-oriented design.  
+  Built with **Java**, using object-oriented design.
+
+- [**TestContainers**](https://github.com/ithsjava25/databas-jdbc-annikaholmqvist94/pull/2)  
+  We built a Java CLI application with end-to-end integration tests using Testcontainers and Docker to run against a temporary MySQL database.
+  The application supports login and menu-based operations for managing accounts and moon missions, and can run in test, dev, or externally configured database modes.
+
+  
 
 ---
 
