@@ -49,6 +49,7 @@ Currently diving deep into **backend development**, system architecture, and cle
     | :--- | :---: |
     | [@annikaholmqvist94](https://github.com/annikaholmqvist94) | <img src="https://github.com/annikaholmqvist94.png" width="60px;"/> |
     | [@kristina0x7](https://github.com/kristina0x7) | <img src="https://github.com/kristina0x7.png" width="60px;"/> |
+    | [@fmazmz](https://github.com/fmazmz) | <img src="https://github.com/fmazmz.png" width="50px;"/> |
 
 
 ---
