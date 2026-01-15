@@ -46,10 +46,10 @@ Currently diving deep into **backend development**, system architecture, and cle
 - [**Invoice Management System**](https://github.com/ithsjava25/project-jpa-grupp-3-d)  
   A comprehensive invoice management solution built with clean architecture principles and modern Java practices
      #### 👥 Project Collaborators
-| Member | Profile |
-| :--- | :---: |
-| [@annikaholmqvist94](https://github.com/annikaholmqvist94) | <img src="https://github.com/annikaholmqvist94.png" width="60px;"/> |
-| [@kristina0x7](https://github.com/kristina0x7) | <img src="https://github.com/kristina0x7.png" width="60px;"/> |
+    | Member | Profile |
+    | :--- | :---: |
+    | [@annikaholmqvist94](https://github.com/annikaholmqvist94) | <img src="https://github.com/annikaholmqvist94.png" width="60px;"/> |
+    | [@kristina0x7](https://github.com/kristina0x7) | <img src="https://github.com/kristina0x7.png" width="60px;"/> |
 
 ---
 
