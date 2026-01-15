@@ -50,13 +50,6 @@ Currently diving deep into **backend development**, system architecture, and cle
     | [@annikaholmqvist94](https://github.com/annikaholmqvist94) | <img src="https://github.com/annikaholmqvist94.png" width="60px;"/> |
     | [@kristina0x7](https://github.com/kristina0x7) | <img src="https://github.com/kristina0x7.png" width="60px;"/> |
 
----
-
-## 📈 GitHub Stats & Badges
-
-![Annikas GitHub stats](https://github-readme-stats.vercel.app/api?username=annikaholmqvist94&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=annikaholmqvist94&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
