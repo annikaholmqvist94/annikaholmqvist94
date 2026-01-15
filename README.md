@@ -47,7 +47,7 @@ Currently diving deep into **backend development**, system architecture, and cle
   A comprehensive invoice management solution built with clean architecture principles and modern Java practices
   ## 👥 Collaborators
 
-| [@kristina0x7](https://github.com/kristina0x7) |
+| (https://github.com/kristina0x7) |
 | <img src="https://github.com/kristina0x7.png" width="100px;"/> |
 
 
