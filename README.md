@@ -33,7 +33,6 @@ Currently diving deep into **backend development**, system architecture, and cle
 - [**CLI App**](https://github.com/annikaholmqvist94/CLI-app)  
   A command-line Java application focused on efficiency and clean architecture.  
   Built with **Java**, using object-oriented design and modular structure.  
-  *(Simple, functional - sometimes less is more ☕)*
 
 - [**Warehouse**](https://github.com/ithsjava25/java-core-annikaholmqvist94)  
   A Warehouse Java application focused on Test Driven Development.  
