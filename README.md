@@ -43,14 +43,13 @@ Currently diving deep into **backend development**, system architecture, and cle
   We built a Java CLI application with end-to-end integration tests using Testcontainers and Docker to run against a temporary MySQL database.
   The application supports login and menu-based operations for managing accounts and moon missions, and can run in test, dev, or externally configured database modes.
 
-  - [**Invoice Management System**](https://github.com/ithsjava25/project-jpa-grupp-3-d)  
+- [**Invoice Management System**](https://github.com/ithsjava25/project-jpa-grupp-3-d)  
   A comprehensive invoice management solution built with clean architecture principles and modern Java practices
-## 👥 Collaborators
-
-| [@kristina0x7](https://github.com/kristina0x7) |
-| :---: |
-| <img src="https://github.com/kristina0x7.png" width="100px;"/> |
-
+     #### 👥 Project Collaborators
+| Member | Profile |
+| :--- | :---: |
+| [@annikaholmqvist94](https://github.com/annikaholmqvist94) | <img src="https://github.com/annikaholmqvist94.png" width="60px;"/> |
+| [@kristina0x7](https://github.com/kristina0x7) | <img src="https://github.com/kristina0x7.png" width="60px;"/> |
 
 ---
 
