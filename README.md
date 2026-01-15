@@ -54,8 +54,9 @@ Currently diving deep into **backend development**, system architecture, and cle
 
 ## 📈 GitHub Stats & Badges
 
-![Annikas GitHub stats](https://github-readme-stats.vercel.app/api?username=annikaholmqvist94&show_icons=true&theme=dark)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=annikaholmqvist94&layout=compact&theme=dark)
+![Annikas GitHub stats](https://github-readme-stats.vercel.app/api?username=annikaholmqvist94&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=annikaholmqvist94&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
