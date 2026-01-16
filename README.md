@@ -2,13 +2,13 @@
 
 # 👋 Hi, I'm Annika Holmqvist
 
-💻 **Java Developer in training** with a passion for building efficient, scalable, and human-friendly software.  
-Currently diving deep into **backend development**, system architecture, and clean code principles — powered by curiosity (and coffee ☕).
+💻 **Backend Developer in training** with a passion for building efficient, scalable, and human-friendly software.  
+Currently diving deep into **backend development**, system architecture, and clean code principles.
 
 ---
 
 ## 🧠 About Me
-- 🎓 Studying **Java development**  
+- 🎓 Studying **Software development**  
 - ⚙️ Interested in **backend systems**, **app development**, and everything that makes tech smarter and faster  
 - 🧩 Always learning — from design patterns to deployment strategies  
 - 🌍 Based in Sweden, collaborating remotely and aim to build for global users  
