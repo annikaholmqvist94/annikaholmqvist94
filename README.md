@@ -1,18 +1,18 @@
 
 
-# 👋 Hi, I'm Annika Holmqvist
+# Hi, I'm Annika Holmqvist
 
-💻 **Backend Developer in training** with a passion for building efficient, scalable, and human-friendly software.  
+ **Backend Developer in training** with a passion for building efficient, scalable, and human-friendly software.  
 Currently diving deep into **backend development**, system architecture, and clean code principles.
 
 ---
 
-## 🧠 About Me
-- 🎓 Studying **Software development**  
-- ⚙️ Interested in **backend systems**, **app development**, and everything that makes tech smarter and faster  
-- 🧩 Always learning — from design patterns to deployment strategies  
-- 🌍 Based in Sweden, collaborating remotely and aim to build for global users  
-- 🧘‍♀️ When not coding, I recharge through movement, property development, and strong espresso shots  
+##  About Me
+-  Studying **Software development**  
+-  Interested in **backend systems**, **app development**, and everything that makes tech smarter and faster  
+-  Always learning — from design patterns to deployment strategies  
+-  Based in Sweden, collaborating remotely and aim to build for global users  
+-  When not coding, I recharge through movement, property development, and strong espresso shots  
 
 ---
 
@@ -54,7 +54,7 @@ Currently diving deep into **backend development**, system architecture, and cle
 
 ---
 
-## 🔗 Connect with Me
+##  Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Annika%20Holmqvist-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/annika-holmqvist-130911209/)
 [![Instagram](https://img.shields.io/badge/Instagram-Reawake%20Estate%20Ltd-pink?style=for-the-badge&logo=instagram)](https://www.instagram.com/reawake_estate_ltd/)
