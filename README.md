@@ -17,7 +17,7 @@ I am currently architecting a professional invoicing application that demonstrat
 * **DevOps:** Fully automated CI/CD pipeline using **GitHub Actions** for seamless deployment to **Azure App Service**.
 * **Frontend:** Modern, responsive UI built with **React** and **Tailwind CSS**.
 
- **[View Project: invoicing-web-app](https://github.com/annikaholmqvist94/invoicing-web-app)** 🌐 **[Live Demo](https://invoice-app-backend.azurewebsites.net)** *(Note: Backend API endpoint)*
+ **[View Project: invoicing-web-app](https://github.com/annikaholmqvist94/invoicing-web-app)** 🌐 **[Live Demo](https://invoice-app-backend.azurewebsites.net)** 
 
 ---
 
