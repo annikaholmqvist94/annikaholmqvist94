@@ -38,7 +38,7 @@ I am currently architecting a professional invoicing application that demonstrat
 ## Featured Projects  
 
 ### [Invoicing Web App (Fullstack)](https://github.com/annikaholmqvist94/invoicing-web-app)
-**The most recent showcase of my skills.** A cloud-native application featuring automated deployments, secure API endpoints, and a professional database setup.
+A cloud-native application featuring automated deployments, secure API endpoints, and a professional database setup.
 * *Key Tech:* Java 21, Spring Boot, Azure, GitHub Actions.
 
 ### [Invoice Management System (Team Project)](https://github.com/ithsjava25/project-jpa-grupp-3-d)
