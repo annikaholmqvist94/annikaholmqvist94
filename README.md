@@ -13,7 +13,9 @@
 
 I am currently architecting a professional Applicant Tracking System (ATS) that demonstrates the full lifecycle of modern software development—from secure backend logic to automated cloud deployment and real-time candidate management.
 
-![ATS Demo](https://github.com/user-attachments/assets/c8ab73c1-be21-46bb-bcab-dec68db06894)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c8ab73c1-be21-46bb-bcab-dec68db06894" width="550" alt="ATS Demo" />
+</div>
 
 * **Backend:** Java & Spring Boot with **Supabase JWT Authentication (ES256)** for robust, token-based security.
 * **Database:** **Supabase (PostgreSQL)** with Row Level Security and RESTful API integration.
