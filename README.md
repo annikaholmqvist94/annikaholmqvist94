@@ -49,6 +49,14 @@ I am currently architecting a professional Applicant Tracking System (ATS) that 
 A cloud-native recruitment management system featuring Supabase authentication, drag-and-drop pipeline management, and automated deployments.
 * *Key Tech:* Java 17, Spring Boot, Supabase, Railway, Vercel, React, TypeScript.
 
+### [MeetingApp - Möteshantering (Full-Stack)](https://github.com/annikaholmqvist94/meetingapp)
+A professional meeting management application featuring a dark glassmorphism UI, Kanban board with drag-and-drop, dashboard with statistics, and calendar view.
+* *Key Tech:* Java 21, Spring Boot, Spring Data JPA, Thymeleaf, PostgreSQL, Docker.
+
+<div align="center">
+  <img src="https://github.com/annikaholmqvist94/meetingapp/raw/main/docs/images/dashboard.png" width="550" alt="MeetingApp Dashboard" />
+</div>
+
 ### [Invoicing Web App (Fullstack)](https://github.com/annikaholmqvist94/invoicing-web-app)
 A cloud-native application featuring automated deployments, secure API endpoints, and a professional database setup.
 * *Key Tech:* Java 21, Spring Boot, Azure, GitHub Actions.
