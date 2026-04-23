@@ -9,6 +9,40 @@
 
 ---
 
+## Skills & Tech Stack
+
+| Area | Technologies & Tools |
+| :--- | :--- |
+| **Language** | Java, TypeScript |
+| **Backend** | Spring Boot 3.2, Spring Security, JPA / Hibernate, JWT (ES256) |
+| **Databases** | Supabase (PostgreSQL), Azure SQL Database (MSSQL), MySQL |
+| **Frontend** | React, TypeScript, Vite, Tailwind CSS, Lovable |
+| **DevOps & Cloud** | Railway, Vercel, Azure App Service, GitHub Actions (CI/CD), Docker, Testcontainers |
+| **IDE & Environment** | IntelliJ IDEA, macOS / Linux, Git |
+| **Practices** | REST API Design, Clean Code, TDD, SOLID Principles |
+
+---
+
+## Full-Stack ATS Application
+
+Architecting a professional Applicant Tracking System (ATS) that demonstrates the full lifecycle of modern software development-from secure backend logic to automated cloud deployment and real-time candidate management.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c8ab73c1-be21-46bb-bcab-dec68db06894" width="550" alt="ATS Demo" />
+</div>
+
+* **Backend:** Java & Spring Boot with **Supabase JWT Authentication (ES256)** for robust, token-based security.
+* **Database:** **Supabase (PostgreSQL)** with Row Level Security and RESTful API integration.
+* **DevOps:** Fully automated deployment using **Railway CLI** (backend) and **Vercel** (frontend).
+* **Frontend:** Modern, responsive UI built with **React**, **TypeScript**, and **Tailwind CSS** featuring drag-and-drop pipeline management.
+* **Key Features:** Candidate management, recruitment pipeline with drag-and-drop stages, detailed scorecards, admin user management, and role-based access control.
+
+**[View Project: mini-ATS (Backend)](https://github.com/annikaholmqvist94/mini-ATS)** | **[View Project: talentflow-pro (Frontend)](https://github.com/annikaholmqvist94/talentflow-pro)** 
+
+🌐 **[Live Demo](https://talentflow-pro.vercel.app)** 
+
+---
+
 ## Vet1177 – Veterinary Journal System
 
 > A full-stack web application for managing veterinary case records, built as a group project during my Java backend education.
@@ -51,40 +85,6 @@ Pet owners can create and track medical cases for their animals, veterinarians m
 
 ### Team
 Built together with [@lindaeskilsson](https://github.com/lindaeskilsson), [@TatjanaTrajkovic](https://github.com/TatjanaTrajkovic) and [@johanbriger](https://github.com/johanbriger).
-
-
-
-## Full-Stack ATS Application
-
-Architecting a professional Applicant Tracking System (ATS) that demonstrates the full lifecycle of modern software development-from secure backend logic to automated cloud deployment and real-time candidate management.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/c8ab73c1-be21-46bb-bcab-dec68db06894" width="550" alt="ATS Demo" />
-</div>
-
-* **Backend:** Java & Spring Boot with **Supabase JWT Authentication (ES256)** for robust, token-based security.
-* **Database:** **Supabase (PostgreSQL)** with Row Level Security and RESTful API integration.
-* **DevOps:** Fully automated deployment using **Railway CLI** (backend) and **Vercel** (frontend).
-* **Frontend:** Modern, responsive UI built with **React**, **TypeScript**, and **Tailwind CSS** featuring drag-and-drop pipeline management.
-* **Key Features:** Candidate management, recruitment pipeline with drag-and-drop stages, detailed scorecards, admin user management, and role-based access control.
-
-**[View Project: mini-ATS (Backend)](https://github.com/annikaholmqvist94/mini-ATS)** | **[View Project: talentflow-pro (Frontend)](https://github.com/annikaholmqvist94/talentflow-pro)** 
-
-🌐 **[Live Demo](https://talentflow-pro.vercel.app)** 
-
----
-
-## Skills & Tech Stack
-
-| Area | Technologies & Tools |
-| :--- | :--- |
-| **Language** | Java, TypeScript |
-| **Backend** | Spring Boot 3.2, Spring Security, JPA / Hibernate, JWT (ES256) |
-| **Databases** | Supabase (PostgreSQL), Azure SQL Database (MSSQL), MySQL |
-| **Frontend** | React, TypeScript, Vite, Tailwind CSS, Lovable |
-| **DevOps & Cloud** | Railway, Vercel, Azure App Service, GitHub Actions (CI/CD), Docker, Testcontainers |
-| **IDE & Environment** | IntelliJ IDEA, macOS / Linux, Git |
-| **Practices** | REST API Design, Clean Code, TDD, SOLID Principles |
 
 ---
 
