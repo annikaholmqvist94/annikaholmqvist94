@@ -36,9 +36,9 @@ Production system for Eloize AB that powers the AI Growth Audit product. A Sprin
 
 > *This is a commercial project - all repositories are private. Architecture and technical details are documented below. Happy to walk through the code and demo the live system in an interview.*
 
-**Backend:** Java 21 · Spring Boot 4 · Spring Data JPA · Supabase PostgreSQL · Anthropic Claude API · OkHttp · WebFlux WebClient · Jackson (JSONB mapping) · Railway
-**Frontends:** React · TypeScript · Tailwind CSS · Recharts · Axios · Vercel
-**Storage:** Supabase Storage for PDF/DOCX/TXT uploads (up to 25 MB) · PDFBox & Apache POI for server-side text extraction
+**Backend:** Java 21 · Spring Boot 4 · Spring Data JPA · Supabase PostgreSQL · Anthropic Claude API · OkHttp · WebFlux WebClient · Jackson (JSONB mapping) · Railway<br>
+**Frontends:** React · TypeScript · Tailwind CSS · Recharts · Axios · Vercel<br>
+**Storage:** Supabase Storage for PDF/DOCX/TXT uploads (up to 25 MB) · PDFBox & Apache POI for server-side text extraction<br>
 
 **Architecture highlights:**
 - **Async AI orchestration** - Dedicated `newFixedThreadPool(3)` for Claude API calls to avoid starving Tomcat threads. Generates six report sections sequentially with dependency passing (e.g. `WORKFLOW_INVENTORY` numbers feed into `EXECUTIVE_SUMMARY`)
