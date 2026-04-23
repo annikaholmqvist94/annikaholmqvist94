@@ -9,9 +9,9 @@
 
 ---
 
-## Current Focus: Full-Stack ATS Application
+## Full-Stack ATS Application
 
-I am currently architecting a professional Applicant Tracking System (ATS) that demonstrates the full lifecycle of modern software development—from secure backend logic to automated cloud deployment and real-time candidate management.
+Architecting a professional Applicant Tracking System (ATS) that demonstrates the full lifecycle of modern software development-from secure backend logic to automated cloud deployment and real-time candidate management.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c8ab73c1-be21-46bb-bcab-dec68db06894" width="550" alt="ATS Demo" />
