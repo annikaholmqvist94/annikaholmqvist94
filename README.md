@@ -9,6 +9,51 @@
 
 ---
 
+## Vet1177 – Veterinary Journal System
+
+> A full-stack web application for managing veterinary case records, built as a group project during my Java backend education.
+
+**[Repository](https://github.com/ithsjava25/project-backend-org-random-coders)** · **[Demo video](#)** *(coming soon)*
+
+### What it does
+Pet owners can create and track medical cases for their animals, veterinarians manage and respond to cases at their clinic, and admins have full system oversight. The system includes file attachments, a real-time activity log, role-based access control, and a full REST API - all containerized and ready to run with a single command.
+
+### Tech Stack
+
+**Backend**
+- **Java 24** · **Spring Boot 4.0.4** (Spring MVC, Spring Data JPA / Hibernate, Spring Security, Spring Validation)
+- **OAuth2 Resource Server** – JWT-based stateless authentication
+- **PostgreSQL 15** – relational database with UUID primary keys
+- **MinIO (S3-compatible)** – object storage for file attachments via **AWS SDK for Java v2**
+- **Jackson Databind** – JSON serialization/deserialization
+- **SLF4J** – structured application logging
+- **JaCoCo** – code coverage reporting
+- **Maven** (with Maven Wrapper) – build & dependency management
+- **Docker & Docker Compose** – containerized infrastructure (PostgreSQL + MinIO spun up automatically)
+- **GitHub Actions** – CI/CD pipeline (automated build & test on every PR)
+
+**Frontend**
+- **React 19** + **Vite 8** – modern SPA with fast HMR dev experience
+- **Tailwind CSS** – utility-first styling
+- **Axios** – HTTP client for REST API communication
+- **jwt-decode** – client-side JWT parsing for role-aware UI
+- **Lucide React** – icon library
+- **ESLint** – code quality enforcement
+- **PostCSS / Autoprefixer** – CSS processing pipeline
+
+**Architecture & Practices**
+- RESTful API design with a documented `API.md`
+- Policy-based authorization layer with per-entity policies custom exceptions mapped to HTTP semantics (400 / 401 / 403 / 404 / 422)
+- Global exception handling via `@RestControllerAdvice`
+- Activity log / audit trail on all case events
+- Environment-variable-driven configuration (`.env.example` included)
+- Feature-branch workflow with 150+ branches and 115+ pull requests merged
+
+### Team
+Built together with [@lindaeskilsson](https://github.com/lindaeskilsson), [@TatjanaTrajkovic](https://github.com/TatjanaTrajkovic) and [@johanbriger](https://github.com/johanbriger).
+
+
+
 ## Full-Stack ATS Application
 
 Architecting a professional Applicant Tracking System (ATS) that demonstrates the full lifecycle of modern software development-from secure backend logic to automated cloud deployment and real-time candidate management.
