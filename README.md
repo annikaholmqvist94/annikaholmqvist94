@@ -9,8 +9,8 @@ Gothenburg, Sweden · Open to backend and full-stack opportunities
 ## What I'm working on
 
 - **Eloize Audit Platform** - Production system for Eloize AB that powers the AI Growth Audit product.
+- **Nordic Dev Mentor** - A Spring Boot middleware proxying OpenRouter chat with four AI mentor personalities, paired with a Next.js frontend (Spring Boot 4, Java 21, Next.js 16, React 19, Tailwind 4, Railway)
 - **Vet1177** - A veterinary case management system with ABAC security (Java 24, Spring Boot 4, PostgreSQL, MinIO)
-- **TalentFlow Pro** - Full-stack ATS with Supabase JWT auth and automated cloud deployment
 - Collaborating with teams using feature-branch workflows, PR reviews, and CI/CD pipelines
 
 ---
@@ -56,6 +56,26 @@ Production system for Eloize AB that powers the AI Growth Audit product. A Sprin
 - **Client Portal** (React) - client-facing app with access-code sign-in and Recharts visualizations → Vercel
 
 **API surface:** 40+ REST endpoints across `/api/clients`, `/api/audits`, `/api/audits/{id}/workflows`, `/api/files`, `/api/forms`, and `/api/public/*` - full API documentation available on request.
+
+---
+
+ ### [Nordic Dev Mentor](https://github.com/annikaholmqvist94/nordic-dev-mentor)
+
+  A Spring Boot middleware that proxies chat requests to OpenRouter with four
+  distinct AI mentor personalities, paired with a Next.js frontend in editorial
+  Nordic design. Deployed as two Railway services with the backend reachable
+  only via internal DNS - the API key never leaves the server.
+
+  **Stack:** Spring Boot 4 · Java 21 · Reactor WebClient · Next.js 16 · React 19 · Tailwind 4 · TypeScript
+
+  **Highlights**
+  - Hexagonal architecture - domain layer has no Spring imports
+  - Per-personality system prompts and sampling temperature
+  - Exponential-backoff retry with `Idempotency-Key` for OpenRouter resilience
+  - localStorage-backed conversation history with click-to-resume
+  - 14 backend tests (JUnit 5 + WireMock) and 26 frontend tests (Vitest + RTL)
+
+  [Live demo](https://frontend-production-25e3.up.railway.app/) 
 
 ---
 
