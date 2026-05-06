@@ -61,19 +61,20 @@ Production system for Eloize AB that powers the AI Growth Audit product. A Sprin
 
  ### [Nordic Dev Mentor](https://github.com/annikaholmqvist94/nordic-dev-mentor)
 
-  A Spring Boot middleware that proxies chat requests to OpenRouter with four
-  distinct AI mentor personalities, paired with a Next.js frontend in editorial
-  Nordic design. Deployed as two Railway services with the backend reachable
-  only via internal DNS - the API key never leaves the server.
-
-  **Stack:** Spring Boot 4 · Java 21 · Reactor WebClient · Next.js 16 · React 19 · Tailwind 4 · TypeScript
-
-  **Highlights**
-  - Hexagonal architecture - domain layer has no Spring imports
+  A Spring Boot middleware that proxies chat requests to OpenRouter with four distinct AI mentor personalities, paired with a Next.js frontend in editorial Nordic
+   design. Deployed as two Railway services with the backend reachable only via internal DNS - the API key never leaves the server.                               
+                  
+  Stack: Spring Boot 4 · Java 21 · Spring RestClient · Spring Data Redis · Next.js 16 · React 19 · Tailwind 4 · TypeScript · Spring Data Redis                  
+  
+  Highlights                                                                                                                                                      
+                  
+  - Hexagonal architecture - domain layer has no Spring imports                                                                                                   
   - Per-personality system prompts and sampling temperature
-  - Exponential-backoff retry with `Idempotency-Key` for OpenRouter resilience
-  - localStorage-backed conversation history with click-to-resume
-  - 14 backend tests (JUnit 5 + WireMock) and 26 frontend tests (Vitest + RTL)
+  - PII filter masks email, Swedish personnummer (Luhn-validated), and Swedish phone numbers before input is forwarded to the LLM
+  - Pluggable conversation store with sliding-window history - in-memory by default, Redis opt-in via env var                                                     
+  - Exponential-backoff retry with Idempotency-Key for OpenRouter resilience                                                                                      
+  - localStorage-backed conversation history with click-to-resume                                                                                                 
+  - 55 backend tests (JUnit 5 + WireMock + MockMvc + Mockito) with JaCoCo coverage, 26 frontend tests (Vitest + RTL)
 
   [Live demo](https://frontend-production-25e3.up.railway.app/) 
 
