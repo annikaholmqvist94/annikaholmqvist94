@@ -121,10 +121,6 @@ A cloud-native Applicant Tracking System demonstrating the full lifecycle of mod
 
 A full-stack meeting management application with a dark glassmorphism UI, Kanban board with drag-and-drop, dashboard with statistics, and calendar view.
 
-<div align="center">
-  <img src="https://github.com/annikaholmqvist94/meetingapp/raw/main/docs/images/dashboard.png" width="600" alt="MeetingApp Dashboard" />
-</div>
-
 **Stack:** Java 21 · Spring Boot · Spring Data JPA · Thymeleaf · PostgreSQL · Docker
 
 ---
