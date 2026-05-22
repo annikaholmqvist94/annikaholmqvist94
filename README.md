@@ -1,6 +1,6 @@
 # Hi, I'm Annika Holmqvist
 
-**Backend Developer** building secure, scalable software with Java, Spring Boot, and cloud-native architecture. Currently finishing my backend developer education while running two businesses on the side - so I care a lot about shipping things that actually work in production.
+**Backend Developer** building secure, scalable software with Java, Spring, and cloud-native architecture. Currently finishing my backend developer education while running two businesses on the side - so I care a lot about shipping things that actually work in production.
 
 Gothenburg, Sweden · Open to backend and full-stack opportunities
 
@@ -9,6 +9,8 @@ Gothenburg, Sweden · Open to backend and full-stack opportunities
 ## What I'm working on
 
 - **Eloize Audit Platform** - Production system for Eloize AB that powers the AI Growth Audit product.
+- **Devroom** - A distributed chat application where users @mention AI mentors that respond to questions. Five Spring Boot services plus a Next.js frontend, secured with OAuth2 end-to-end and deployable to
+  Kubernetes with a single command.
 - **Nordic Dev Mentor** - A Spring Boot middleware proxying OpenRouter chat with four AI mentor personalities, paired with a Next.js frontend (Spring Boot 4, Java 21, Next.js 16, React 19, Tailwind 4, Railway)
 - **Vet1177** - A veterinary case management system with ABAC security (Java 24, Spring Boot 4, PostgreSQL, MinIO)
 - Collaborating with teams using feature-branch workflows, PR reviews, and CI/CD pipelines
@@ -17,13 +19,13 @@ Gothenburg, Sweden · Open to backend and full-stack opportunities
 
 ## Core Stack
 
-**Backend:** Java 21/24 · Spring Boot 4 · Spring Security · JPA/Hibernate · JWT (ES256) · OAuth2 Resource Server · REST APIs<br>
+**Backend:** Java · Spring · Spring Security · JPA/Hibernate · JWT (ES256) · OAuth2 Resource Server · REST APIs<br>
 **AI & Integrations:** Anthropic Claude API · Perplexity API · MCP servers · OkHttp · Spring WebFlux WebClient · PDFBox · Apache POI<br>
 **Automation:** n8n · Make.com · GitHub Actions<br>
 **Databases:** PostgreSQL (incl. JSONB) · Supabase · Azure SQL · MySQL · HikariCP<br>
 **Storage & Files:** Supabase Storage · MinIO (S3-compatible) · AWS SDK v2<br>
 **Frontend:** React · TypeScript · Vite · Tailwind CSS · Recharts<br>
-**DevOps:** Docker · Docker Compose · Railway · Vercel · Azure App Service · Testcontainers<br>
+**DevOps:** Docker · Docker Compose · Railway · Vercel · Azure App Service · Kubernetes · Testcontainers<br>
 **Practices:** REST API design · Async orchestration · ABAC authorization · TDD · SOLID · Clean architecture
 
 ---
@@ -56,6 +58,31 @@ Production system for Eloize AB that powers the AI Growth Audit product. A Sprin
 - **Client Portal** (React) - client-facing app with access-code sign-in and Recharts visualizations → Vercel
 
 **API surface:** 40+ REST endpoints across `/api/clients`, `/api/audits`, `/api/audits/{id}/workflows`, `/api/files`, `/api/forms`, and `/api/public/*` - full API documentation available on request.
+
+---
+
+### [Devroom](https://github.com/annikaholmqvist94/devroom)
+
+  A distributed chat application where users @mention AI mentors that respond to questions. Five Spring Boot services plus a Next.js frontend, secured with OAuth2 end-to-end and deployable to
+  Kubernetes with a single command. Integrates my earlier Nordic Dev Mentor service as a black-box LLM dependency.
+
+  Stack: Spring Boot 4 · Java 21 · Spring Authorization Server · Spring Cloud Gateway · Spring gRPC · RabbitMQ · PostgreSQL 16 · Next.js 16 · React 19 · Tailwind 4 · TypeScript · Kubernetes
+  (Minikube) · Docker
+
+  Highlights
+
+  - OAuth2 end-to-end - Spring Authorization Server issues RS256 JWTs, Resource Servers validate via JWKS, Gateway runs Authorization Code + PKCE with cookie-based BFF sessions so the browser
+  never sees a token
+  - Transactional outbox for signup - atomic DB write plus at-least-once publish to RabbitMQ plus idempotent consumer in User Service guarantees no ghost users on partial failures
+  - Bounded contexts with a separate Postgres instance per service (auth-db, user-db, message-db) and no foreign keys across DB boundaries
+  - gRPC for internal read traffic (Message and Bot Service look up users via Spring gRPC 1.0.3), REST for writes
+  - Bot Service uses OAuth2 Client Credentials with `bot:write` scope - consumes `message.published` events from RabbitMQ, looks up sender via gRPC, calls Nordic Dev Mentor, posts replies back
+  through Message Service
+  - Multi-stage Docker builds with BuildKit cache mounts, plus 14 Kubernetes manifests (StatefulSets for Postgres, Deployments for stateless services, Secrets rendered from templates)
+  - One-command deploy - `bash k8s/deploy.sh` takes a fresh Minikube to a running 11-pod cluster in ~5 minutes
+  - 9 ADRs documenting every architectural choice with alternatives considered (OAuth2 stack chosen over Kong and handwritten JWT after weighing 8 options, gRPC vs REST per traffic category,
+  Gateway WebMVC vs WebFlux)
+  - Testcontainers-based integration tests per service - real Postgres and RabbitMQ in CI, not mocks
 
 ---
 
@@ -97,13 +124,9 @@ Built with [@lindaeskilsson](https://github.com/lindaeskilsson), [@TatjanaTrajko
 
 ---
 
-### [TalentFlow Pro — Full-Stack ATS Application](https://talentflow-pro.vercel.app)
+### TalentFlow Pro — Full-Stack ATS Application
 
 A cloud-native Applicant Tracking System demonstrating the full lifecycle of modern software development — from secure backend logic to automated deployment and real-time candidate management.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/c8ab73c1-be21-46bb-bcab-dec68db06894" width="600" alt="TalentFlow Pro Demo" />
-</div>
 
 **Stack:** Java · Spring Boot · Supabase (PostgreSQL + JWT ES256) · React · TypeScript · Tailwind CSS · Railway · Vercel
 **Highlights:**
@@ -113,7 +136,7 @@ A cloud-native Applicant Tracking System demonstrating the full lifecycle of mod
 - Detailed candidate scorecards and role-based admin controls
 - Fully automated deployment via Railway CLI and Vercel
 
- [Backend repo (mini-ATS)](https://github.com/annikaholmqvist94/mini-ATS) · [Frontend repo (talentflow-pro)](https://github.com/annikaholmqvist94/talentflow-pro) · [Live demo](https://talentflow-pro.vercel.app)
+ [Backend repo (mini-ATS)](https://github.com/annikaholmqvist94/mini-ATS) · [Frontend repo (talentflow-pro)](https://github.com/annikaholmqvist94/talentflow-pro)
 
 ---
 
