@@ -25,7 +25,7 @@ Gothenburg, Sweden · Open to backend and full-stack opportunities
 **Databases:** PostgreSQL (incl. JSONB) · Supabase · Azure SQL · MySQL · HikariCP<br>
 **Storage & Files:** Supabase Storage · MinIO (S3-compatible) · AWS SDK v2<br>
 **Frontend:** React · TypeScript · Vite · Tailwind CSS · Recharts<br>
-**DevOps:** Docker · Docker Compose · Railway · Vercel · Azure App Service · Kubernetes · Testcontainers<br>
+**DevOps:** Docker · Docker Compose · Railway · Vercel · Azure App Service · AWS Services · Kubernetes · Testcontainers<br>
 **Practices:** REST API design · Async orchestration · ABAC authorization · TDD · SOLID · Clean architecture
 
 ---
